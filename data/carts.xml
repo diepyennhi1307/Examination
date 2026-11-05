@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoices>
+    <invoice id="HD001">
+        <createdDate>2026-10-28</createdDate>
+        <employeeId>e01</employeeId>
+        <employeeName>Diep Yen Nhi</employeeName>
+        <customerId>c01</customerId>
+        <customerName>Nguyen Yen Nhi</customerName>
+        <details>
+            <detail>
+                <productId>1</productId>
+                <productName>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</productName>
+                <quantity>1</quantity>
+                <price>109.95</price>
+            </detail>
+            <detail>
+                <productId>2</productId>
+                <productName>Mens Casual Premium Slim Fit T-Shirts</productName>
+                <quantity>1</quantity>
+                <price>22.30</price>
+            </detail>
+        </details>
+        <total>132.25</total>
+        <status>Đã giao</status>
+    </invoice>
+    <invoice id="HD002">
+        <createdDate>2026-10-30</createdDate>
+        <employeeId>e02</employeeId>
+        <employeeName>Tran Minh Anh</employeeName>
+        <customerId>c02</customerId>
+        <customerName>Tran Minh Anh</customerName>
+        <details>
+            <detail>
+                <productId>3</productId>
+                <productName>Mens Cotton Jacket</productName>
+                <quantity>1</quantity>
+                <price>55.99</price>
+            </detail>
+        </details>
+        <total>55.99</total>
+        <status>Đang xử lý</status>
+    </invoice>
+    <invoice id="HD003">
+        <createdDate>2026-11-02</createdDate>
+        <employeeId>e01</employeeId>
+        <employeeName>Diep Yen Nhi</employeeName>
+        <customerId>c03</customerId>
+        <customerName>Le Khanh Linh</customerName>
+        <details>
+            <detail>
+                <productId>10</productId>
+                <productName>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</productName>
+                <quantity>2</quantity>
+                <price>109.00</price>
+            </detail>
+        </details>
+        <total>218.00</total>
+        <status>Đang xử lý</status>
+    </invoice>
+</invoices>

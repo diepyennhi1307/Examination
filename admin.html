@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý - DiepNhi Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="DiepNhi Store - Trang chủ">
+            <span class="brand-mark">D</span>
+            <span>DiepNhi Store</span>
+        </a>
+        <nav class="main-nav" aria-label="Điều hướng chính">
+            <a href="index.html">Về cửa hàng</a>
+        </nav>
+    </header>
+
+    <main class="admin-page">
+        <section id="adminLoginCard" class="admin-login-card">
+            <p class="eyebrow">KHU VỰC NHÂN VIÊN</p>
+            <h1>Đăng nhập quản lý</h1>
+            <p class="result-count">Chỉ tài khoản quản trị mới được xem dashboard.</p>
+            <form id="adminLoginForm">
+                <label for="employeeEmail">Email nhân viên</label>
+                <input type="email" id="employeeEmail" name="email" required autocomplete="username">
+
+                <label for="employeePassword">Mật khẩu</label>
+                <input type="password" id="employeePassword" name="password" required autocomplete="current-password">
+
+                <p id="adminLoginMessage" class="form-message" role="status"></p>
+                <button type="submit" class="primary-button checkout-button">Đăng nhập</button>
+            </form>
+        </section>
+
+        <section id="adminPanel" class="admin-panel" hidden>
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">KHU VỰC QUẢN LÝ</p>
+                    <h1>Tổng quan đơn hàng</h1>
+                    <p id="adminUserName" class="result-count"></p>
+                </div>
+                <button type="button" id="logoutAdminButton" class="secondary-button">Đăng xuất</button>
+            </div>
+            <p id="adminLoadMessage" class="load-message" role="status">Đang tải dữ liệu...</p>
+
+            <div class="dashboard-cards">
+                <article class="dashboard-card">
+                    <span>Tổng đơn hàng</span>
+                    <strong id="orderCount">0</strong>
+                </article>
+                <article class="dashboard-card">
+                    <span>Doanh thu</span>
+                    <strong id="revenueTotal">$0.00</strong>
+                </article>
+                <article class="dashboard-card">
+                    <span>Sản phẩm đã bán</span>
+                    <strong id="soldCount">0</strong>
+                </article>
+            </div>
+
+            <div class="admin-columns">
+                <section class="admin-card">
+                    <h2>Đơn hàng</h2>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn</th>
+                                    <th>Ngày tạo</th>
+                                    <th>Khách hàng</th>
+                                    <th>Nhân viên</th>
+                                    <th>Tổng tiền</th>
+                                    <th>Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody id="orderTableBody"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="admin-card">
+                    <h2>Sản phẩm bán chạy</h2>
+                    <ol id="bestSellerList" class="best-seller-list"></ol>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Diệp Yến Nhi - K244161800</p>
+    </footer>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+    <review productId="1">
+        <customerName>Nguyen Yen Nhi</customerName>
+        <rating>5</rating>
+        <comment>Balo chắc chắn, đựng laptop vừa vặn và giao hàng nhanh.</comment>
+        <date>2026-10-25</date>
+    </review>
+    <review productId="1">
+        <customerName>Tran Minh Anh</customerName>
+        <rating>4</rating>
+        <comment>Chất liệu tốt, phù hợp để mang đi học mỗi ngày.</comment>
+        <date>2026-10-29</date>
+    </review>
+    <review productId="2">
+        <customerName>Le Khanh Linh</customerName>
+        <rating>4</rating>
+        <comment>Áo mặc thoải mái, form đẹp hơn mình mong đợi.</comment>
+        <date>2026-10-21</date>
+    </review>
+    <review productId="3">
+        <customerName>Pham Quoc Bao</customerName>
+        <rating>5</rating>
+        <comment>Áo khoác ấm và đường may khá chắc chắn.</comment>
+        <date>2026-10-30</date>
+    </review>
+    <review productId="3">
+        <customerName>Vo Thu Ha</customerName>
+        <rating>4</rating>
+        <comment>Sản phẩm đúng mô tả, giao hàng gọn gàng.</comment>
+        <date>2026-11-01</date>
+    </review>
+    <review productId="4">
+        <customerName>Dang Hoang Nam</customerName>
+        <rating>3</rating>
+        <comment>Chất vải ổn, cần xem kỹ bảng kích cỡ trước khi mua.</comment>
+        <date>2026-10-18</date>
+    </review>
+    <review productId="5">
+        <customerName>Bui Ngoc Mai</customerName>
+        <rating>5</rating>
+        <comment>Món trang sức sáng đẹp, đóng gói cẩn thận.</comment>
+        <date>2026-10-27</date>
+    </review>
+    <review productId="6">
+        <customerName>Do Tuan Kiet</customerName>
+        <rating>4</rating>
+        <comment>Thiết kế đơn giản, đeo nhẹ và đẹp.</comment>
+        <date>2026-10-26</date>
+    </review>
+    <review productId="7">
+        <customerName>Hoang Phuong Thao</customerName>
+        <rating>4</rating>
+        <comment>Nhẫn xinh, phù hợp làm quà tặng.</comment>
+        <date>2026-10-22</date>
+    </review>
+    <review productId="8">
+        <customerName>Ngo Duc Huy</customerName>
+        <rating>3</rating>
+        <comment>Sản phẩm đúng hình, kích thước nhỏ gọn.</comment>
+        <date>2026-10-24</date>
+    </review>
+    <review productId="9">
+        <customerName>Ly Minh Chau</customerName>
+        <rating>5</rating>
+        <comment>Ổ cứng hoạt động tốt, kết nối máy tính dễ dàng.</comment>
+        <date>2026-10-19</date>
+    </review>
+    <review productId="10">
+        <customerName>Dinh Gia Han</customerName>
+        <rating>5</rating>
+        <comment>Máy chạy nhanh hơn sau khi nâng cấp SSD.</comment>
+        <date>2026-10-28</date>
+    </review>
+    <review productId="10">
+        <customerName>Truong Anh Khoa</customerName>
+        <rating>4</rating>
+        <comment>Đúng dung lượng, đóng gói chống sốc tốt.</comment>
+        <date>2026-11-02</date>
+    </review>
+    <review productId="11">
+        <customerName>Mai Thanh Truc</customerName>
+        <rating>4</rating>
+        <comment>Cài đặt đơn giản và tốc độ ổn định.</comment>
+        <date>2026-10-20</date>
+    </review>
+    <review productId="12">
+        <customerName>Cao Nhat Minh</customerName>
+        <rating>5</rating>
+        <comment>Dung lượng lớn, dùng lưu trữ game rất tiện.</comment>
+        <date>2026-10-23</date>
+    </review>
+    <review productId="13">
+        <customerName>Huynh Bao Tran</customerName>
+        <rating>4</rating>
+        <comment>Màn hình rõ nét, chân đế gọn và dễ lắp.</comment>
+        <date>2026-10-31</date>
+    </review>
+    <review productId="14">
+        <customerName>Phan Thanh Tung</customerName>
+        <rating>5</rating>
+        <comment>Màn hình rộng, màu sắc đẹp khi chơi game.</comment>
+        <date>2026-10-17</date>
+    </review>
+    <review productId="15">
+        <customerName>Vu Khanh Vy</customerName>
+        <rating>4</rating>
+        <comment>Áo ấm, nhiều lớp nên mặc được trong thời tiết lạnh.</comment>
+        <date>2026-10-22</date>
+    </review>
+    <review productId="16">
+        <customerName>Ta Hoai Phong</customerName>
+        <rating>3</rating>
+        <comment>Kiểu dáng đẹp, nên chọn size lớn hơn nếu thích rộng.</comment>
+        <date>2026-10-26</date>
+    </review>
+    <review productId="17">
+        <customerName>Duong My Duyen</customerName>
+        <rating>4</rating>
+        <comment>Áo nhẹ và tiện khi đi ngoài trời.</comment>
+        <date>2026-10-29</date>
+    </review>
+    <review productId="18">
+        <customerName>Lam Quang Vinh</customerName>
+        <rating>4</rating>
+        <comment>Vải mềm, mặc thường ngày rất thoải mái.</comment>
+        <date>2026-10-24</date>
+    </review>
+    <review productId="19">
+        <customerName>Trinh Ngoc Bich</customerName>
+        <rating>5</rating>
+        <comment>Áo nhẹ, màu sắc đẹp và nhanh khô.</comment>
+        <date>2026-10-30</date>
+    </review>
+    <review productId="20">
+        <customerName>Chau Tien Dat</customerName>
+        <rating>4</rating>
+        <comment>Áo vừa vặn, chất vải phù hợp với giá tiền.</comment>
+        <date>2026-11-01</date>
+    </review>
+</reviews>

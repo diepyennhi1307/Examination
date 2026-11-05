@@ -1,0 +1,242 @@
+[
+    {
+        "customerId": "c01",
+        "customerName": "Nguyen Yen Nhi",
+        "email": "nhi@example.com",
+        "password": "nhi123",
+        "phone": "0901234567",
+        "address": "Ho Chi Minh City"
+    },
+    {
+        "customerId": "c02",
+        "customerName": "Tran Minh Anh",
+        "email": "minhanh@example.com",
+        "password": "anh123",
+        "phone": "0912345678",
+        "address": "Ho Chi Minh City"
+    },
+    {
+        "customerId": "c03",
+        "customerName": "Le Khanh Linh",
+        "email": "khanhlinh@example.com",
+        "password": "linh123",
+        "phone": "0987654321",
+        "address": "Da Nang City"
+    },
+    {
+        "customerId": "c04",
+        "customerName": "Pham Quoc Bao",
+        "email": "quocbao@example.com",
+        "password": "bao123",
+        "phone": "0902345671",
+        "address": "Hanoi City"
+    },
+    {
+        "customerId": "c05",
+        "customerName": "Vo Thu Ha",
+        "email": "thuha@example.com",
+        "password": "ha123",
+        "phone": "0913456782",
+        "address": "Can Tho City"
+    },
+    {
+        "customerId": "c06",
+        "customerName": "Dang Hoang Nam",
+        "email": "hoangnam@example.com",
+        "password": "nam123",
+        "phone": "0924567893",
+        "address": "Hai Phong City"
+    },
+    {
+        "customerId": "c07",
+        "customerName": "Bui Ngoc Mai",
+        "email": "ngocmai@example.com",
+        "password": "mai123",
+        "phone": "0935678904",
+        "address": "Hue City"
+    },
+    {
+        "customerId": "c08",
+        "customerName": "Do Tuan Kiet",
+        "email": "tuankiet@example.com",
+        "password": "kiet123",
+        "phone": "0946789015",
+        "address": "Nha Trang City"
+    },
+    {
+        "customerId": "c09",
+        "customerName": "Hoang Phuong Thao",
+        "email": "phuongthao@example.com",
+        "password": "thao123",
+        "phone": "0957890126",
+        "address": "Da Lat City"
+    },
+    {
+        "customerId": "c10",
+        "customerName": "Ngo Duc Huy",
+        "email": "duchuy@example.com",
+        "password": "huy123",
+        "phone": "0968901237",
+        "address": "Vung Tau City"
+    },
+    {
+        "customerId": "c11",
+        "customerName": "Ly Minh Chau",
+        "email": "minhchau@example.com",
+        "password": "chau123",
+        "phone": "0979012348",
+        "address": "Quy Nhon City"
+    },
+    {
+        "customerId": "c12",
+        "customerName": "Dinh Gia Han",
+        "email": "giahan@example.com",
+        "password": "han123",
+        "phone": "0980123459",
+        "address": "Bien Hoa City"
+    },
+    {
+        "customerId": "c13",
+        "customerName": "Truong Anh Khoa",
+        "email": "anhkhoa@example.com",
+        "password": "khoa123",
+        "phone": "0903124567",
+        "address": "Buon Ma Thuot City"
+    },
+    {
+        "customerId": "c14",
+        "customerName": "Mai Thanh Truc",
+        "email": "thanhtruc@example.com",
+        "password": "truc123",
+        "phone": "0914235678",
+        "address": "Long Xuyen City"
+    },
+    {
+        "customerId": "c15",
+        "customerName": "Cao Nhat Minh",
+        "email": "nhatminh@example.com",
+        "password": "minh123",
+        "phone": "0925346789",
+        "address": "Rach Gia City"
+    },
+    {
+        "customerId": "c16",
+        "customerName": "Huynh Bao Tran",
+        "email": "baotran@example.com",
+        "password": "tran123",
+        "phone": "0936457890",
+        "address": "Tuy Hoa City"
+    },
+    {
+        "customerId": "c17",
+        "customerName": "Phan Thanh Tung",
+        "email": "thanhtung@example.com",
+        "password": "tung123",
+        "phone": "0947568901",
+        "address": "Vinh City"
+    },
+    {
+        "customerId": "c18",
+        "customerName": "Vu Khanh Vy",
+        "email": "khanhvy@example.com",
+        "password": "vy123",
+        "phone": "0958679012",
+        "address": "Thai Nguyen City"
+    },
+    {
+        "customerId": "c19",
+        "customerName": "Ta Hoai Phong",
+        "email": "hoaiphong@example.com",
+        "password": "phong123",
+        "phone": "0969780123",
+        "address": "Nam Dinh City"
+    },
+    {
+        "customerId": "c20",
+        "customerName": "Duong My Duyen",
+        "email": "myduyen@example.com",
+        "password": "duyen123",
+        "phone": "0970891234",
+        "address": "Bac Ninh City"
+    },
+    {
+        "customerId": "c21",
+        "customerName": "Lam Quang Vinh",
+        "email": "quangvinh@example.com",
+        "password": "vinh123",
+        "phone": "0981902345",
+        "address": "Phan Thiet City"
+    },
+    {
+        "customerId": "c22",
+        "customerName": "Trinh Ngoc Bich",
+        "email": "ngocbich@example.com",
+        "password": "bich123",
+        "phone": "0902013456",
+        "address": "My Tho City"
+    },
+    {
+        "customerId": "c23",
+        "customerName": "Chau Tien Dat",
+        "email": "tiendat@example.com",
+        "password": "dat123",
+        "phone": "0913124567",
+        "address": "Ca Mau City"
+    },
+    {
+        "customerId": "c24",
+        "customerName": "Ta Le Quynh",
+        "email": "lequynh@example.com",
+        "password": "quynh123",
+        "phone": "0924235678",
+        "address": "Soc Trang City"
+    },
+    {
+        "customerId": "c25",
+        "customerName": "Nguyen Phuc An",
+        "email": "phucan@example.com",
+        "password": "an123",
+        "phone": "0935346789",
+        "address": "Pleiku City"
+    },
+    {
+        "customerId": "c26",
+        "customerName": "Le Thien Kim",
+        "email": "thienkim@example.com",
+        "password": "kim123",
+        "phone": "0946457890",
+        "address": "Dong Hoi City"
+    },
+    {
+        "customerId": "c27",
+        "customerName": "Tran Huu Phat",
+        "email": "huuphat@example.com",
+        "password": "phat123",
+        "phone": "0957568901",
+        "address": "Ha Long City"
+    },
+    {
+        "customerId": "c28",
+        "customerName": "Phan Nhu Y",
+        "email": "nhuy@example.com",
+        "password": "y123",
+        "phone": "0968679012",
+        "address": "Lao Cai City"
+    },
+    {
+        "customerId": "c29",
+        "customerName": "Dang Minh Tam",
+        "email": "minhtam@example.com",
+        "password": "tam123",
+        "phone": "0979780123",
+        "address": "Tay Ninh City"
+    },
+    {
+        "customerId": "c30",
+        "customerName": "Vo Thanh Nhan",
+        "email": "thanhnha@example.com",
+        "password": "nhan123",
+        "phone": "0981891234",
+        "address": "Bac Lieu City"
+    }
+]
