@@ -1,0 +1,72 @@
+[
+    {
+        "employeeId": "e01",
+        "employeeName": "Diep Yen Nhi",
+        "email": "admin@nhistore.vn",
+        "password": "nhi123",
+        "role": "admin"
+    },
+    {
+        "employeeId": "e02",
+        "employeeName": "Tran Minh Anh",
+        "email": "staff@nhistore.vn",
+        "password": "staff123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e03",
+        "employeeName": "Le Hoang Phuc",
+        "email": "phuc.le@nhistore.vn",
+        "password": "phuc123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e04",
+        "employeeName": "Pham Ngoc Han",
+        "email": "han.pham@nhistore.vn",
+        "password": "han123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e05",
+        "employeeName": "Vo Thanh Dat",
+        "email": "dat.vo@nhistore.vn",
+        "password": "dat123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e06",
+        "employeeName": "Bui Minh Chau",
+        "email": "chau.bui@nhistore.vn",
+        "password": "chau123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e07",
+        "employeeName": "Dang Quoc Huy",
+        "email": "huy.dang@nhistore.vn",
+        "password": "huy123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e08",
+        "employeeName": "Hoang Mai Linh",
+        "email": "linh.hoang@nhistore.vn",
+        "password": "linh123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e09",
+        "employeeName": "Nguyen Tuan Kiet",
+        "email": "kiet.nguyen@nhistore.vn",
+        "password": "kiet123",
+        "role": "staff"
+    },
+    {
+        "employeeId": "e10",
+        "employeeName": "Truong Bao Ngoc",
+        "email": "ngoc.truong@nhistore.vn",
+        "password": "ngoc123",
+        "role": "staff"
+    }
+]

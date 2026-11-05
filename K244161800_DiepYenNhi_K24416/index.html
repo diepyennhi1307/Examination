@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cửa hàng trực tuyến với danh sách sản phẩm, giỏ hàng và thanh toán mô phỏng.">
+    <title>DiepNhi Store - Mua sắm trực tuyến</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="DiepNhi Store - Trang chủ">
+            <span class="brand-mark">D</span>
+            <span>DiepNhi Store</span>
+        </a>
+        <nav class="main-nav" aria-label="Điều hướng chính">
+            <a href="#products" class="shop-link">Sản phẩm</a>
+            <a href="admin.html" class="nav-button">Quản lý đơn hàng</a>
+            <button type="button" id="cartButton" class="cart-nav-button">
+                Giỏ hàng <span id="cartCount" class="cart-count">0</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">MUA SẮM DỄ DÀNG</p>
+                <h1>Tìm món đồ bạn yêu thích</h1>
+                <p>Khám phá sản phẩm, xem đánh giá và đặt hàng nhanh chóng.</p>
+                <a class="primary-link" href="#products">Khám phá sản phẩm</a>
+            </div>
+            <div class="hero-note">
+                <span class="hero-note-icon">✦</span>
+                <p>Sản phẩm đa dạng<br><strong>Chọn mua thật tiện lợi</strong></p>
+            </div>
+        </section>
+
+        <p id="loadMessage" class="load-message" role="status">Đang tải dữ liệu sản phẩm...</p>
+
+        <section id="shopSection" class="shop-layout" aria-label="Danh sách sản phẩm">
+            <aside class="search-panel">
+                <h2>Tìm sản phẩm</h2>
+                <form id="searchForm">
+                    <label for="keyword">Từ khóa</label>
+                    <input type="search" id="keyword" name="keyword" placeholder="Tên sản phẩm...">
+
+                    <label for="categoryFilter">Danh mục</label>
+                    <select id="categoryFilter" name="category">
+                        <option value="">Tất cả danh mục</option>
+                    </select>
+
+                    <div class="price-fields">
+                        <div>
+                            <label for="minPrice">Giá từ ($)</label>
+                            <input type="number" id="minPrice" name="minPrice" min="0" step="0.01" placeholder="0">
+                        </div>
+                        <div>
+                            <label for="maxPrice">Đến ($)</label>
+                            <input type="number" id="maxPrice" name="maxPrice" min="0" step="0.01" placeholder="Không giới hạn">
+                        </div>
+                    </div>
+
+                    <label for="ratingFilter">Đánh giá tối thiểu</label>
+                    <select id="ratingFilter" name="rating">
+                        <option value="0">Tất cả đánh giá</option>
+                        <option value="3">Từ 3 sao</option>
+                        <option value="4">Từ 4 sao</option>
+                        <option value="4.5">Từ 4.5 sao</option>
+                    </select>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="stockFilter" name="inStock">
+                        Chỉ xem sản phẩm còn hàng
+                    </label>
+
+                    <div class="form-buttons">
+                        <button class="primary-button" type="submit">Tìm kiếm</button>
+                        <button class="text-button" type="reset">Xóa lọc</button>
+                    </div>
+                </form>
+            </aside>
+
+            <section id="products" class="catalog">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">DANH SÁCH SẢN PHẨM</p>
+                        <h2>Sản phẩm nổi bật</h2>
+                        <p id="productResult" class="result-count">Đang chuẩn bị sản phẩm...</p>
+                    </div>
+                    <label class="sort-control" for="sortFilter">
+                        Sắp xếp
+                        <select id="sortFilter">
+                            <option value="default">Mặc định</option>
+                            <option value="price-low">Giá tăng dần</option>
+                            <option value="price-high">Giá giảm dần</option>
+                            <option value="rating">Đánh giá cao</option>
+                            <option value="name">Tên A-Z</option>
+                        </select>
+                    </label>
+                </div>
+                <div id="productGrid" class="product-grid" aria-live="polite"></div>
+                <p id="emptyProducts" class="empty-message" hidden>Không tìm thấy sản phẩm phù hợp.</p>
+            </section>
+        </section>
+
+    </main>
+
+    <aside id="cartPanel" class="cart-panel is-collapsed" aria-label="Giỏ hàng">
+        <button type="button" id="cartPanelToggle" class="cart-panel-heading" aria-expanded="false">
+            <span>Giỏ hàng của bạn <span id="panelCartCount">(0)</span></span>
+            <span id="cartPanelArrow" aria-hidden="true">⌃</span>
+        </button>
+        <div id="cartContent" class="cart-content" hidden>
+            <div id="cartItems" class="cart-items"></div>
+            <div class="cart-total">
+                <span>Tạm tính</span>
+                <strong id="cartTotal">$0.00</strong>
+            </div>
+            <button type="button" id="checkoutButton" class="primary-button checkout-button" disabled>
+                Thanh toán
+            </button>
+        </div>
+    </aside>
+
+    <dialog id="quickViewDialog" class="site-dialog">
+        <button type="button" class="dialog-close" data-close-dialog="quickViewDialog" aria-label="Đóng">×</button>
+        <div id="quickViewContent"></div>
+    </dialog>
+
+    <dialog id="checkoutDialog" class="site-dialog checkout-dialog">
+        <button type="button" class="dialog-close" data-close-dialog="checkoutDialog" aria-label="Đóng">×</button>
+        <p class="eyebrow">HOÀN TẤT ĐƠN HÀNG</p>
+        <h2>Thông tin thanh toán</h2>
+        <form id="checkoutForm">
+            <div class="customer-login-box">
+                <h3>Đăng nhập khách hàng</h3>
+                <label for="customerEmail">Email</label>
+                <input type="email" id="customerEmail" name="email" required autocomplete="username">
+                <p id="customerEmailMessage" class="field-message" role="status"></p>
+                <label for="customerPassword">Mật khẩu</label>
+                <input type="password" id="customerPassword" name="password" required autocomplete="current-password">
+                <button type="button" id="customerLoginButton" class="secondary-button">Đăng nhập và điền thông tin</button>
+                <p id="customerLoginMessage" class="form-message" role="status"></p>
+            </div>
+
+            <label for="checkoutName">Họ và tên</label>
+            <input type="text" id="checkoutName" name="name" required minlength="2" autocomplete="name">
+
+            <label for="checkoutPhone">Số điện thoại</label>
+            <input type="tel" id="checkoutPhone" name="phone" required pattern="0[0-9]{9}" title="Nhập số điện thoại gồm 10 chữ số, bắt đầu bằng số 0." autocomplete="tel">
+            <p id="checkoutPhoneMessage" class="field-message" role="status"></p>
+
+            <label for="checkoutAddress">Địa chỉ nhận hàng</label>
+            <textarea id="checkoutAddress" name="address" required minlength="8" rows="3" autocomplete="street-address"></textarea>
+
+            <label for="paymentMethod">Phương thức thanh toán</label>
+            <select id="paymentMethod" name="paymentMethod" required>
+                <option value="cod">Thanh toán khi nhận hàng</option>
+                <option value="bank">Chuyển khoản (mô phỏng)</option>
+            </select>
+
+            <p id="checkoutMessage" class="form-message" role="status"></p>
+            <button type="submit" id="submitOrderButton" class="primary-button checkout-button">Xác nhận đặt hàng</button>
+        </form>
+    </dialog>
+
+    <footer class="site-footer">
+        <p>Diệp Yến Nhi - K244161800</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
